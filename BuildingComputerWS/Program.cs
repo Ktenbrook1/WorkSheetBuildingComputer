@@ -10,6 +10,8 @@ namespace BuildingComputerWS
     {
         static void Main(string[] args)
         {
+            Computer computer = new Computer();
+            Console.ReadLine();
         }
     }
 }

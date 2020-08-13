@@ -6,7 +6,23 @@ using System.Threading.Tasks;
 
 namespace BuildingComputerWS
 {
-    class motherBoard
+    class MotherBoard
     {
+        public string Manufacturer;
+        public RAM TemporaryMemory;
+        public CPU Processor;
+        public Harddrive Storage;
+        public GPU Graphics;
+
+        public MotherBoard(string manufacturer, RAM ram, CPU cpu, Harddrive hardDrive, GPU gpu)
+        {
+            Manufacturer = manufacturer;
+            TemporaryMemory = ram;
+            Processor = cpu;
+            Storage = hardDrive;
+            Graphics = gpu;
+        }
+
+        
     }
 }
